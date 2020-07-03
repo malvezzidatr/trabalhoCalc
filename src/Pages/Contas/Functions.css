@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+button:focus{
+outline: thin dotted;
+outline: 0px auto -webkit-focus-ring-color;
+outline-offset: 0px;
+}
+
+input:focus{
+outline: thin dotted;
+outline: 0px auto -webkit-focus-ring-color;
+outline-offset: 0px;
+}
+
+input{
+    cursor: pointer;
+}
+
+input[type=submit]{
+    height: 60px;
+    width: 350px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover{
+    background-color: rgb(199, 195, 195);
+}
+
+.input-container {
+    height: 55px;
+    width: 285px;
+    margin-bottom: 70px;
+    border: none;
+    background-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size: 60px;
+    cursor: text;
+}
+
+.input_container{
+    width: 285px;
+    height: 55px;
+    transform: translateY(-0%);
+    margin-left: 10px;
+    margin-top: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: text;
+    border: none;
+}
+
+.inputcontainer{
+    width: 285px;
+    margin-left: 10px;
+    height: 55px;
+    border-radius: 10px;
+    font-size: 40px;
+    cursor: text;
+    border: none;
+    transform: translateY(0%);
+    margin-bottom: 27px;
+    margin-top: 50px;
+}
+.funcao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(255, 255, 255);
+    height: 60px;
+    width: 220px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+    font-size: 35px;
+    overflow: hidden;
+}
+
+.button-sair{
+    background-color:rgb(255, 255, 255);
+    height: 80px;
+    width: 80px;
+    border: none;
+    border-radius: 50px;
+    transform: translate(630%,-110%);
+    font-size: 20px;
+    cursor: pointer;
+}
+.button-sair:hover{
+    background-color: rgb(199, 195, 195);
+}
+
+.definida{
+    transform: translate(30%,60%);
+    color: #ffffff;
+    
+}
+
+
+.Contas{
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(35,37,38), rgb(65,67,69));
+    border-radius: 10px;
+    width: 325px;
+    height: 120px;
+    line-height: 35px;
+    transform: translate(200%,-520%);
+    font-size: 17px;
+}

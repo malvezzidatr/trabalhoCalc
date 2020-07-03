@@ -1,0 +1,40 @@
+.container{
+    transform: translate(50%,10%);
+    background-color: #0009;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    font-size: 2.1em;
+    height: 500px;
+    width: 600px;
+    border-radius: 15px;
+    background: linear-gradient(to right, rgb(35,37,38), rgb(65,67,69));
+}
+
+.button1 {
+    background-color:rgba(189, 35, 35, 0.6);
+    height: 140px;
+    width: 280px;
+    margin: 8px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer; 
+    font-size: 25px;
+  }
+
+  .button1:hover{
+    background-color:rgba(153, 27, 27, 0.6)
+  }
+
+  .link{
+    text-decoration: none;
+  }
+
+  .sair{
+    width: 100%;
+    font-size: 28px;
+  }
